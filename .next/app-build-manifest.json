@@ -6,30 +6,20 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/(root)/layout": [
+    "/api/sentry-example-api/route": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(root)/layout.js"
+      "static/chunks/app/api/sentry-example-api/route.js"
     ],
-    "/(root)/page": [
+    "/(auth)/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(root)/page.js"
+      "static/chunks/app/(auth)/layout.js"
     ],
-    "/(root)/my-banks/page": [
+    "/(auth)/sign-up/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(root)/my-banks/page.js"
-    ],
-    "/(root)/transaction-history/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(root)/transaction-history/page.js"
-    ],
-    "/(root)/payment-transfer/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(root)/payment-transfer/page.js"
+      "static/chunks/app/(auth)/sign-up/page.js"
     ]
   }
 }

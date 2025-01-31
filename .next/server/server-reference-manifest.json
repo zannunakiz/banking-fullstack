@@ -1,5 +1,50 @@
 {
-  "node": {},
+  "node": {
+    "00288c1705031e488dd672aa897a7b032d3654d730": {
+      "workers": {
+        "app/(auth)/sign-up/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(auth)/sign-up/page": "action-browser"
+      }
+    },
+    "7f7d11de6a78bf10b044569d5d6dfa3df428037fec": {
+      "workers": {
+        "app/(auth)/sign-up/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(auth)/sign-up/page": "action-browser"
+      }
+    },
+    "7f8f2c7cdbb80c738a03915b86e94b558bfff3a433": {
+      "workers": {
+        "app/(auth)/sign-up/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(auth)/sign-up/page": "action-browser"
+      }
+    },
+    "7fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2": {
+      "workers": {
+        "app/(auth)/sign-up/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(auth)/sign-up/page": "action-browser"
+      }
+    }
+  },
   "edge": {},
   "encryptionKey": "LuluLAWEaz1wBUVBtMpF0tT+iB7oUN09dgz2qVVlkSk="
 }
