@@ -3,45 +3,165 @@
     "00288c1705031e488dd672aa897a7b032d3654d730": {
       "workers": {
         "app/(auth)/sign-up/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%5D%5D%5D&__client_imported__=true!",
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f2f3a2507e7cc026c93cc59dbb324c6301195a991%22%2C%22createLinkToken%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbb2e50cb1efbd2a7c2e115f1d52d1eeca179f9fb%22%2C%22exchangePublicToken%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%2C%5B%227fec4daab1ee3b05e2f0f00178d359cd9d787f65bb%22%2C%22createBankAccount%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f2f3a2507e7cc026c93cc59dbb324c6301195a991%22%2C%22createLinkToken%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbb2e50cb1efbd2a7c2e115f1d52d1eeca179f9fb%22%2C%22exchangePublicToken%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%5D%5D%2C%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cappwrite.ts%22%2C%5B%5B%220064c987a8863e1715930405f47ea5e65f2669b925%22%2C%22createSessionClient%22%5D%2C%5B%2200ca5f82a965a8c1e6814082de7498f66d882c1082%22%2C%22createAdminClient%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth)/sign-in/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f2f3a2507e7cc026c93cc59dbb324c6301195a991%22%2C%22createLinkToken%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbb2e50cb1efbd2a7c2e115f1d52d1eeca179f9fb%22%2C%22exchangePublicToken%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%2C%5B%227fec4daab1ee3b05e2f0f00178d359cd9d787f65bb%22%2C%22createBankAccount%22%5D%5D%5D%5D&__client_imported__=true!",
           "async": false
         }
       },
       "layer": {
-        "app/(auth)/sign-up/page": "action-browser"
+        "app/(auth)/sign-up/page": "action-browser",
+        "app/(root)/page": "rsc",
+        "app/(auth)/sign-in/page": "action-browser"
       }
     },
     "7f7d11de6a78bf10b044569d5d6dfa3df428037fec": {
       "workers": {
         "app/(auth)/sign-up/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%5D%5D%5D&__client_imported__=true!",
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f2f3a2507e7cc026c93cc59dbb324c6301195a991%22%2C%22createLinkToken%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbb2e50cb1efbd2a7c2e115f1d52d1eeca179f9fb%22%2C%22exchangePublicToken%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%2C%5B%227fec4daab1ee3b05e2f0f00178d359cd9d787f65bb%22%2C%22createBankAccount%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f2f3a2507e7cc026c93cc59dbb324c6301195a991%22%2C%22createLinkToken%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbb2e50cb1efbd2a7c2e115f1d52d1eeca179f9fb%22%2C%22exchangePublicToken%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%5D%5D%2C%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cappwrite.ts%22%2C%5B%5B%220064c987a8863e1715930405f47ea5e65f2669b925%22%2C%22createSessionClient%22%5D%2C%5B%2200ca5f82a965a8c1e6814082de7498f66d882c1082%22%2C%22createAdminClient%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth)/sign-in/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f2f3a2507e7cc026c93cc59dbb324c6301195a991%22%2C%22createLinkToken%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbb2e50cb1efbd2a7c2e115f1d52d1eeca179f9fb%22%2C%22exchangePublicToken%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%2C%5B%227fec4daab1ee3b05e2f0f00178d359cd9d787f65bb%22%2C%22createBankAccount%22%5D%5D%5D%5D&__client_imported__=true!",
           "async": false
         }
       },
       "layer": {
-        "app/(auth)/sign-up/page": "action-browser"
+        "app/(auth)/sign-up/page": "action-browser",
+        "app/(root)/page": "rsc",
+        "app/(auth)/sign-in/page": "action-browser"
       }
     },
     "7f8f2c7cdbb80c738a03915b86e94b558bfff3a433": {
       "workers": {
         "app/(auth)/sign-up/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%5D%5D%5D&__client_imported__=true!",
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f2f3a2507e7cc026c93cc59dbb324c6301195a991%22%2C%22createLinkToken%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbb2e50cb1efbd2a7c2e115f1d52d1eeca179f9fb%22%2C%22exchangePublicToken%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%2C%5B%227fec4daab1ee3b05e2f0f00178d359cd9d787f65bb%22%2C%22createBankAccount%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f2f3a2507e7cc026c93cc59dbb324c6301195a991%22%2C%22createLinkToken%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbb2e50cb1efbd2a7c2e115f1d52d1eeca179f9fb%22%2C%22exchangePublicToken%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%5D%5D%2C%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cappwrite.ts%22%2C%5B%5B%220064c987a8863e1715930405f47ea5e65f2669b925%22%2C%22createSessionClient%22%5D%2C%5B%2200ca5f82a965a8c1e6814082de7498f66d882c1082%22%2C%22createAdminClient%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth)/sign-in/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f2f3a2507e7cc026c93cc59dbb324c6301195a991%22%2C%22createLinkToken%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbb2e50cb1efbd2a7c2e115f1d52d1eeca179f9fb%22%2C%22exchangePublicToken%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%2C%5B%227fec4daab1ee3b05e2f0f00178d359cd9d787f65bb%22%2C%22createBankAccount%22%5D%5D%5D%5D&__client_imported__=true!",
           "async": false
         }
       },
       "layer": {
-        "app/(auth)/sign-up/page": "action-browser"
+        "app/(auth)/sign-up/page": "action-browser",
+        "app/(root)/page": "rsc",
+        "app/(auth)/sign-in/page": "action-browser"
       }
     },
     "7fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2": {
       "workers": {
         "app/(auth)/sign-up/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%5D%5D%5D&__client_imported__=true!",
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f2f3a2507e7cc026c93cc59dbb324c6301195a991%22%2C%22createLinkToken%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbb2e50cb1efbd2a7c2e115f1d52d1eeca179f9fb%22%2C%22exchangePublicToken%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%2C%5B%227fec4daab1ee3b05e2f0f00178d359cd9d787f65bb%22%2C%22createBankAccount%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f2f3a2507e7cc026c93cc59dbb324c6301195a991%22%2C%22createLinkToken%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbb2e50cb1efbd2a7c2e115f1d52d1eeca179f9fb%22%2C%22exchangePublicToken%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%5D%5D%2C%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cappwrite.ts%22%2C%5B%5B%220064c987a8863e1715930405f47ea5e65f2669b925%22%2C%22createSessionClient%22%5D%2C%5B%2200ca5f82a965a8c1e6814082de7498f66d882c1082%22%2C%22createAdminClient%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth)/sign-in/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f2f3a2507e7cc026c93cc59dbb324c6301195a991%22%2C%22createLinkToken%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbb2e50cb1efbd2a7c2e115f1d52d1eeca179f9fb%22%2C%22exchangePublicToken%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%2C%5B%227fec4daab1ee3b05e2f0f00178d359cd9d787f65bb%22%2C%22createBankAccount%22%5D%5D%5D%5D&__client_imported__=true!",
           "async": false
         }
       },
       "layer": {
-        "app/(auth)/sign-up/page": "action-browser"
+        "app/(auth)/sign-up/page": "action-browser",
+        "app/(root)/page": "rsc",
+        "app/(auth)/sign-in/page": "action-browser"
+      }
+    },
+    "7f2f3a2507e7cc026c93cc59dbb324c6301195a991": {
+      "workers": {
+        "app/(auth)/sign-up/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f2f3a2507e7cc026c93cc59dbb324c6301195a991%22%2C%22createLinkToken%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbb2e50cb1efbd2a7c2e115f1d52d1eeca179f9fb%22%2C%22exchangePublicToken%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%2C%5B%227fec4daab1ee3b05e2f0f00178d359cd9d787f65bb%22%2C%22createBankAccount%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f2f3a2507e7cc026c93cc59dbb324c6301195a991%22%2C%22createLinkToken%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbb2e50cb1efbd2a7c2e115f1d52d1eeca179f9fb%22%2C%22exchangePublicToken%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%5D%5D%2C%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cappwrite.ts%22%2C%5B%5B%220064c987a8863e1715930405f47ea5e65f2669b925%22%2C%22createSessionClient%22%5D%2C%5B%2200ca5f82a965a8c1e6814082de7498f66d882c1082%22%2C%22createAdminClient%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth)/sign-in/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f2f3a2507e7cc026c93cc59dbb324c6301195a991%22%2C%22createLinkToken%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbb2e50cb1efbd2a7c2e115f1d52d1eeca179f9fb%22%2C%22exchangePublicToken%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%2C%5B%227fec4daab1ee3b05e2f0f00178d359cd9d787f65bb%22%2C%22createBankAccount%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(auth)/sign-up/page": "action-browser",
+        "app/(root)/page": "rsc",
+        "app/(auth)/sign-in/page": "action-browser"
+      }
+    },
+    "7fbb2e50cb1efbd2a7c2e115f1d52d1eeca179f9fb": {
+      "workers": {
+        "app/(auth)/sign-up/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f2f3a2507e7cc026c93cc59dbb324c6301195a991%22%2C%22createLinkToken%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbb2e50cb1efbd2a7c2e115f1d52d1eeca179f9fb%22%2C%22exchangePublicToken%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%2C%5B%227fec4daab1ee3b05e2f0f00178d359cd9d787f65bb%22%2C%22createBankAccount%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f2f3a2507e7cc026c93cc59dbb324c6301195a991%22%2C%22createLinkToken%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbb2e50cb1efbd2a7c2e115f1d52d1eeca179f9fb%22%2C%22exchangePublicToken%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%5D%5D%2C%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cappwrite.ts%22%2C%5B%5B%220064c987a8863e1715930405f47ea5e65f2669b925%22%2C%22createSessionClient%22%5D%2C%5B%2200ca5f82a965a8c1e6814082de7498f66d882c1082%22%2C%22createAdminClient%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth)/sign-in/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f2f3a2507e7cc026c93cc59dbb324c6301195a991%22%2C%22createLinkToken%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbb2e50cb1efbd2a7c2e115f1d52d1eeca179f9fb%22%2C%22exchangePublicToken%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%2C%5B%227fec4daab1ee3b05e2f0f00178d359cd9d787f65bb%22%2C%22createBankAccount%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(auth)/sign-up/page": "action-browser",
+        "app/(root)/page": "rsc",
+        "app/(auth)/sign-in/page": "action-browser"
+      }
+    },
+    "0064c987a8863e1715930405f47ea5e65f2669b925": {
+      "workers": {
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f2f3a2507e7cc026c93cc59dbb324c6301195a991%22%2C%22createLinkToken%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbb2e50cb1efbd2a7c2e115f1d52d1eeca179f9fb%22%2C%22exchangePublicToken%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%5D%5D%2C%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cappwrite.ts%22%2C%5B%5B%220064c987a8863e1715930405f47ea5e65f2669b925%22%2C%22createSessionClient%22%5D%2C%5B%2200ca5f82a965a8c1e6814082de7498f66d882c1082%22%2C%22createAdminClient%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(root)/page": "rsc"
+      }
+    },
+    "00ca5f82a965a8c1e6814082de7498f66d882c1082": {
+      "workers": {
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f2f3a2507e7cc026c93cc59dbb324c6301195a991%22%2C%22createLinkToken%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbb2e50cb1efbd2a7c2e115f1d52d1eeca179f9fb%22%2C%22exchangePublicToken%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%5D%5D%2C%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cappwrite.ts%22%2C%5B%5B%220064c987a8863e1715930405f47ea5e65f2669b925%22%2C%22createSessionClient%22%5D%2C%5B%2200ca5f82a965a8c1e6814082de7498f66d882c1082%22%2C%22createAdminClient%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(root)/page": "rsc"
+      }
+    },
+    "7fec4daab1ee3b05e2f0f00178d359cd9d787f65bb": {
+      "workers": {
+        "app/(auth)/sign-up/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f2f3a2507e7cc026c93cc59dbb324c6301195a991%22%2C%22createLinkToken%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbb2e50cb1efbd2a7c2e115f1d52d1eeca179f9fb%22%2C%22exchangePublicToken%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%2C%5B%227fec4daab1ee3b05e2f0f00178d359cd9d787f65bb%22%2C%22createBankAccount%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/(auth)/sign-in/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Creacts%5C%5C1-FULL%20STACK%5C%5Cjsm-banking%5C%5Cbanking-app%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%5B%2200288c1705031e488dd672aa897a7b032d3654d730%22%2C%22getLoggedInUser%22%5D%2C%5B%227f2f3a2507e7cc026c93cc59dbb324c6301195a991%22%2C%22createLinkToken%22%5D%2C%5B%227f7d11de6a78bf10b044569d5d6dfa3df428037fec%22%2C%22signIn%22%5D%2C%5B%227f8f2c7cdbb80c738a03915b86e94b558bfff3a433%22%2C%22logoutAccount%22%5D%2C%5B%227fbb2e50cb1efbd2a7c2e115f1d52d1eeca179f9fb%22%2C%22exchangePublicToken%22%5D%2C%5B%227fbff0f24f5c81e1ed8ac559b855ed1296df7bfad2%22%2C%22signUp%22%5D%2C%5B%227fec4daab1ee3b05e2f0f00178d359cd9d787f65bb%22%2C%22createBankAccount%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(auth)/sign-up/page": "action-browser",
+        "app/(auth)/sign-in/page": "action-browser"
       }
     }
   },
